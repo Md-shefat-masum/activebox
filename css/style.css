@@ -1,0 +1,355 @@
+h1 {
+    font-size: 65px;
+    font-family: 'Rale way', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Rale way', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 22px;
+    font-family: 'Rale way', sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 14px;
+    font-family: 'Rale way', sans-serif;
+    font-weight: 400;
+}
+
+h5 {}
+
+h6 {}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6c7279;
+    font-family: 'Rale Wasy', sans-serif;
+}
+
+.pad_top {
+    padding-top: 100px;
+}
+
+.pad_bottom {
+    padding-bottom: 100px;
+}
+
+.mar_top {
+    margin-top: 100px;
+}
+
+.mar_bottom {
+    margin-bottom: 100px;
+}
+
+
+/*
+.container {
+    border: 1px solid red;
+}
+*/
+
+
+
+/*header part start*/
+
+.headerPart {
+    padding-bottom: 150px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15px;
+}
+
+.navbody {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-49%);
+    background: rgba(0, 0, 0, .4);
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar {
+    padding: .5rem 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #66697e;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+    color: #66697e;
+}
+
+.headerPart h1 {
+    color: #fff;
+    padding-top: 190px;
+    font-size: 60px;
+}
+
+.headerPart h3 {
+    color: #fff;
+    padding-top: 35px;
+    font-size: 17px;
+    line-height: 33px;
+    font-family: 'Rale way', sans-serif;
+}
+
+.headerPart .h3 {
+    margin-left: 8%;
+    padding-bottom: 75px;
+}
+
+.headerPart .bannerContent a {
+    font-size: 13px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background: #e84545;
+    color: #fff;
+}
+
+
+/*header part end*/
+
+/*offer part start*/
+
+#offer {
+    padding: 100px 0px 30px;
+}
+
+#offer .offerBody {
+    text-align: center;
+    width: 100%;
+}
+
+#offer .offerBody img {
+    display: block;
+    margin: 0 auto;
+}
+
+#offer .offerBody h4 {
+    color: #2d3033;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 25px 0px;
+}
+
+#offer .offerBody p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Rale way', sans-serif;
+    color: #6c7279;
+    padding-bottom: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/*offer part end*/
+
+#gallery {}
+
+#gallery .glybody {
+    position: relative;
+}
+
+#gallery .glyoverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    background: rgba(231, 82, 80, 0.71);
+    text-align: center;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+#gallery .glyoverlay h4 {
+    margin-top: 150px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#gallery .glyoverlay p {
+    color: #d3d3d3;
+    text-transform: capitalize;
+}
+
+#gallery .glybody:hover .glyoverlay {
+    opacity: 1;
+}
+
+#gallery .col-lg-3 {
+    padding: 0;
+}
+
+
+/*testimonial part start*/
+
+#testimonial {
+    text-align: left;
+    padding: 100px 0px;
+}
+
+#testimonial .testimonialbody {}
+
+#testimonial .testimonialbody h3 {
+    padding: 30px 0px 10px;
+    display: block;
+    text-transform: capitalize;
+}
+
+#testimonial .testimonialbody h4 {
+    text-transform: uppercase;
+    color: red;
+}
+
+#testimonial .testimonialbody p {
+    padding: 25px 0px;
+}
+
+#testimonial .testimonialbody ul {}
+
+#testimonial .testimonialbody ul li {
+    float: left;
+    margin-right: 5px;
+}
+
+#testimonial .testimonialbody ul li a {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.62);
+}
+
+#testimonial .testimonialbody ul li a i {
+    transition: all linear .3s;
+}
+
+#testimonial .testimonialbody ul li a:hover i {
+    color: black;
+}
+
+
+/*testimonial part end*/
+
+/*member details part start*/
+
+#memberDetails {}
+
+#memberDetails .textslide {
+    background: #53354a;
+    padding-left: 85px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#memberDetails .textslide h2 {
+    font-family: 'cardo', sans-serif;
+    font-style: italic;
+    color: white;
+    padding: 115px 0px 30px;
+    box-sizing: border-box;
+}
+
+#memberDetails .textslide p {
+    color: white;
+    padding-bottom: 100px;
+}
+
+
+/*member details part end*/
+
+/*download part start*/
+
+#download {
+    padding: 100px 0px;
+}
+
+#download h2 {
+    font-size: 24px;
+}
+
+#download p {
+    padding: 15px 0px 30px;
+}
+
+#download a {
+    display: inline-block;
+    padding: 10px 35px;
+    background: red;
+    color: white;
+}
+
+
+/*download part end*/
+
+/*upper footer start*/
+
+#upperFooter {
+    background: #3a3e64;
+    padding: 60px 0px 100px;
+}
+
+#upperFooter h4 {
+    font-size: 14px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#upperFooter ul {
+    margin-left: 50%;
+    transform: translateX(-30%);
+}
+
+#upperFooter ul li {
+    float: left;
+    margin-right: 15px;
+}
+
+#upperFooter ul li a {
+    display: inline-block;
+    color: white;
+    height: 25px;
+    width: 25px;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+/*upper footer end*/
+
+/*footer part start*/
+
+#footer {
+    background: #313454;
+    padding: 25px 0px;
+}
+
+
+/*footer part end*/
